@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 
+
 const Body = () => {
   //local state variable
   const [RestaurantList, SetRestaurantList] = useState(resData);
